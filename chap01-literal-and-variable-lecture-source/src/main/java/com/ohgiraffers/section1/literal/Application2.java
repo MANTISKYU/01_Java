@@ -30,9 +30,9 @@ public static void main(String[] args) {
     System.out.println(123 % 0.5); // 실수
 
     // 문자와 문자의 연산
-    // 문자는 내부적으로 숫자로 인식되어 연산된다/
+    // 문자는 내부적으로 숫자로 인식되어 연산된다.
     System.out.println("========= 문자와 문자의 연산 =========");
-    System.out.println('a' + 'b');
+    System.out.println('a' + 'b'); // a는 97 b는 98 - 아스키코드에 등록되어 있음
     System.out.println('a' - 'b');
     System.out.println('a' * 'b');
     System.out.println('a' / 'b');
