@@ -66,7 +66,7 @@ public class Apllication1 {
 
         System.out.println("longMulti = " + longMulti);
 
-        
+
 
 
 
