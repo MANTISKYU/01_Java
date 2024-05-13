@@ -1,5 +1,7 @@
 package com.ohgiraffers.section4.overflow;
 
+import java.sql.SQLOutput;
+
 public class Apllication1 {
     public static void main(String[] args) {
 
@@ -48,6 +50,24 @@ public class Apllication1 {
         int multi = firstNum * secondNum; // 칠천억
 
         System.out.println("multi = " + multi);// -79669248
+
+
+        /*
+        * 해결방법
+        *
+        * 오버플로우를 예측하고 더 큰 자료형으로 결과 값을 받아서 처리한다.
+        * */
+
+        long longMulti = firstNum * secondNum;
+
+        System.out.println(" longMulti = " + longMulti);
+
+        longMulti = (long) firstNum * secondNum; // 강제 형변환
+
+        System.out.println("longMulti = " + longMulti);
+
+        
+
 
 
 
