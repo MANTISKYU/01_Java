@@ -58,7 +58,7 @@ public class Application1 {
         System.out.println("int age가 18이상이면서 65미만인지 확인하는 코드 : " + (Age >= 18 && Age < 65));
         System.out.println("x가 10이 아니거나 y가 25 이상인지 확인하는 코드 : " + (X != 10 || Y >= 25));
 
-        
+
 
 
 
