@@ -20,7 +20,7 @@ public class Application06 {
         Application06 app6 = new Application06();
         String returnTest = app6.testmethod();
 
-        System.out.println(returnTest); // 자장히지 않고 바로 출력이 가능하다.
+        System.out.println(returnTest); // 지정히지 않고 바로 출력이 가능하다.
 
 
     }

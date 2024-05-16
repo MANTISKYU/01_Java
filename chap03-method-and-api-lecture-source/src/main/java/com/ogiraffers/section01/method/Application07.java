@@ -4,7 +4,7 @@ public class Application07 {
 
     public static void main(String[] args) {
 
-        /* 매겨변수와 리턴값의 복합 활용 */
+        /* 매개변수와 리턴값의 복합 활용 */
 
         int first = 20;
         int second = 20;
