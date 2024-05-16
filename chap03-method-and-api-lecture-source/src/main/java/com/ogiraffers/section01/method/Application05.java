@@ -12,7 +12,7 @@ public class Application05 {
         * return은 현재 메소드를 강제 종료하고 호출한 구문으로 다시 돌아가라는 명령어이다.
         * */
 
-        System.out.println("main() 메소스 시작함...");
+        System.out.println("main() 메소드 시작함...");
 
         Application05 app5 = new Application05();
         app5.testmethod();
