@@ -143,5 +143,120 @@ public class A_nestedFor {
 
     }
 
+    public void PracticeStar() {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("정수를 입력하시오");
+
+        int num = sc.nextInt();
+
+        for (int i = 1; i <= num; i++) {
+
+            for(int j = 1; j <= i; j++) {
+
+                System.out.print("*");
+
+            }
+            System.out.println();
+
+        }
+
+
+
+
+    }
+
+    public void PracticeStar2 () {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("정수를 입력하시오");
+
+        int num = sc.nextInt();
+
+        for (int i = num; i <= num; i++) {
+
+            for(int j = num; j >= i; j--) {
+
+                System.out.print("*");
+
+            }
+            System.out.println();
+
+        }
+
+
+
+    }
+
+    public void PracticeStar3 () {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("정수를 입력하여주십시오");
+
+        int row = sc.nextInt();
+
+        for (int i = 1; i < row; i++) {
+
+            for(int j = 5; j > i; j--) {
+
+                System.out.print(" ");
+
+            }
+
+            for(int j = 0; j < i; j++) {
+
+
+                System.out.print("*");
+            }
+
+            System.out.println();
+
+        }
+
+
+
+    }
+
+
+    public void PracticeStar4 () {
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("정수를 입력하여주십시오");
+
+        int row = sc.nextInt();
+
+
+        for (int i = 1; i < row; i++) {
+
+            for(int j= 5; j>i; j--) {
+
+                System.out.print(" ");
+
+            }
+
+            for(int j=1; j<=2*i-1; j++) {
+
+                System.out.print("*");
+            }
+
+            for(int j= 5; j>i; j--) {
+
+                System.out.print(" ");
+
+            }
+
+            System.out.println();
+
+
+        }
+
+
+
+
+
+    }
+
 
 }
