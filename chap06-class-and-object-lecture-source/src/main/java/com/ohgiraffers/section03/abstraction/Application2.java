@@ -7,7 +7,12 @@ public class Application2 {
         Practice practice = new Practice();
 //        practice.Dog();
 
-        practice.Book();
+//        practice.Book();
+        Practice.setMarry();
+
+
+
+
 
 
 
