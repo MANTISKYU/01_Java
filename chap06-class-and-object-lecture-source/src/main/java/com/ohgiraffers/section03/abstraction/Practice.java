@@ -87,8 +87,8 @@ public void Book () {
     }
 
     String cover = "하드커버";
-    System.out.print("이 책이 하드커버인지 소프트커버인지 알고 계신가요");
-    String cover1 = sc.nextLine();
+    System.out.print("이 책이 하드커버인지 소프트커버인지 알아맞혀보세요");
+    String cover1 = sc.next();
 
     if (cover1.equals("하드커버")) {
 
