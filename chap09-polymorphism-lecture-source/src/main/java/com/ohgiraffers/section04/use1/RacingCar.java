@@ -15,7 +15,6 @@ public class RacingCar extends Car {
 
     }
 
-
     // Car 상속 받아서
     // go() "레이싱카가 달려갑니다"
     // stop() "레이싱카가 멈춥니다"
