@@ -1,5 +1,7 @@
 package com.ohgiraffers.section03.interfaceimplements;
 
+import javax.swing.plaf.basic.BasicInternalFrameUI;
+
 public class Application {
 
     public static void main(String[] args) {
@@ -17,6 +19,23 @@ public class Application {
         * 2. 자바의 단일상속의 단점을 극복할 수 있다. (다중 상속)
         * */
 
+        // 인스턴스를 직접 생성하지 못하고 생성자 자체가 존재하지 않는다.
+        // InterProduct interProduct = new InterProduct();
+        interProduct interProduct = new Product();
+
+        interProduct.nonStaticMethod();
+        interProduct.abstMethod();
+
+        interProduct.defaultMethod();
+
+        // static 메소드는 인터페이스명.메소드명()으로 호출함.
+        com.ohgiraffers.section03.interfaceimplements.interProduct.staticMethod();
+
+        System.out.println(interProduct.MAX_NUM);
+        System.out.println(interProduct.MIN_NUM);
+
     }
+
+
 
 }

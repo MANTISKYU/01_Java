@@ -47,7 +47,13 @@ public interface interProduct /*extends java.io.Serializable, java.util.Comparat
 
     }
 
-    
+    public default void abstMethod() {
+
+        System.out.println("InterProduct 클래스의 abstMethod 호출됨");
+
+    }
+
+
 
 
 }
