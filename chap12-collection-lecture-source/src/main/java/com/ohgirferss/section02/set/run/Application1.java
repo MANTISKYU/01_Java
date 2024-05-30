@@ -70,7 +70,7 @@ public class Application1 {
         hSet.clear();
         System.out.println("isEmpty : " + hSet.isEmpty());
         System.out.println("hSet = " + hSet);
-        
+
 
     }
 
