@@ -11,24 +11,23 @@ public class PersonDTO {
 
     public PersonDTO() {
 
-        System.out.println("기본생성자 호출함");
+//        System.out.println("기본생성자 호출함");
 
     }
 
-    public PersonDTO(String name, int age, double height, double weight, String information) {
+    public PersonDTO(String name, int age, double height, double weight) {
         this.name = name;
         this.age = age;
         this.height = height;
         this.weight = weight;
-        this.information = information;
 
-        System.out.println("매개변수 있는 생성자 호출함");
+//        System.out.println("매개변수 있는 생성자 호출함");
 
     }
 
-    public String person () {
+    public void person () {
 
-        return name + age + height + weight;
+
 
     }
 

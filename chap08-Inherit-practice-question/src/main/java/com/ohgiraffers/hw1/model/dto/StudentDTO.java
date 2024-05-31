@@ -10,7 +10,8 @@ public class StudentDTO extends PersonDTO {
     public StudentDTO() {
     }
 
-    public StudentDTO(int grade, String major) {
+    public StudentDTO(String name, int age, double height, double weight, int grade, String major) {
+        super(name, age, height, weight);
         this.grade = grade;
         this.major = major;
     }
@@ -34,7 +35,7 @@ public class StudentDTO extends PersonDTO {
     @Override
     public String getInformation() {
 
-        return "grade = " + grade + "major = " + major + "]";
+        return "grade = " + grade + "major = [" + major + "]";
 
     }
 

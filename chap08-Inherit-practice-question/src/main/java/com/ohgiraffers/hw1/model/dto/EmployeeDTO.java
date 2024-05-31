@@ -1,15 +1,19 @@
 package com.ohgiraffers.hw1.model.dto;
 
+import java.util.Scanner;
+
 public class EmployeeDTO extends PersonDTO {
 
 
+    public static EmployeeDTO employee;
     private int salary;
     private String dept;
 
     public EmployeeDTO() {
     }
 
-    public EmployeeDTO(int salary, String dept) {
+    public EmployeeDTO(String name, int age, double height, double weight, int salary, String dept) {
+        super(name, age, height, weight);
         this.salary = salary;
         this.dept = dept;
     }
@@ -30,8 +34,13 @@ public class EmployeeDTO extends PersonDTO {
         this.dept = dept;
     }
 
+
+
     @Override
     public String getInformation() {
-        return super.getInformation() + "salary = " + salary + "dept = " + dept + "]";
+        return   ", salary = " + salary + ", dept = [" + dept + "]";
     }
+
+
 }
+
