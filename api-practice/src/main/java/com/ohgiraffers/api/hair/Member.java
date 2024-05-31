@@ -107,20 +107,23 @@ public class Member {
         this.created_at = created_at;
     }
 
-
-
     @Override
     public String toString() {
-        return "Member{" +
-                "id='" + id + '\'' +
-                ", first_name='" + first_name + '\'' +
-                ", last_name='" + last_name + '\'' +
-                ", email='" + email + '\'' +
-                ", gender='" + gender + '\'' +
-                ", birthday=" + birthday +
-                ", reservation_date=" + reservation_date +
-                ", reservation_time=" + reservation_time +
-                ", created_at=" + created_at +
-                '}';
+        return super.toString();
     }
+
+    //    @Override
+//    public String toString() {
+//        return "Member{" +
+//                "id='" + id + '\'' +
+//                ", first_name='" + first_name + '\'' +
+//                ", last_name='" + last_name + '\'' +
+//                ", email='" + email + '\'' +
+//                ", gender='" + gender + '\'' +
+//                ", birthday=" + birthday +
+//                ", reservation_date=" + reservation_date +
+//                ", reservation_time=" + reservation_time +
+//                ", created_at=" + created_at +
+//                '}';
+//    }
 }

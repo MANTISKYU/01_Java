@@ -33,14 +33,14 @@ public class Run {
             Member member = new Member();
 
             member.setId(secondSplitArr[0]);
-//            member.setFirst_name(secondSplitArr[1]);
-//            member.setLast_name(secondSplitArr[2]);
-//            member.setEmail(secondSplitArr[3]);
-//            member.setGender(secondSplitArr[4]);
-//            member.setBirthday(LocalDate.parse(secondSplitArr[5]));
-//            member.setReservation_date(LocalDate.parse(secondSplitArr[6]));
-//            member.setReservation_time(LocalTime.parse(secondSplitArr[7]));
-//            member.setCreated_at(LocalDateTime.parse(secondSplitArr[8]));
+            member.setFirst_name(secondSplitArr[1]);
+            member.setLast_name(secondSplitArr[2]);
+            member.setEmail(secondSplitArr[3]);
+            member.setGender(secondSplitArr[4]);
+            member.setBirthday(LocalDate.parse(secondSplitArr[5]));
+            member.setReservation_date(LocalDate.parse(secondSplitArr[6]));
+            member.setReservation_time(LocalTime.parse(secondSplitArr[7]));
+            member.setCreated_at(LocalDateTime.parse(secondSplitArr[8]));
 
 
 
